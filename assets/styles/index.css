@@ -194,6 +194,10 @@ body {
     color: #b2b2bd;
 }
 
+.hidden {
+    display: none;
+}
+
 .wrap {
     width: 100%;
     max-width: 1920px;
@@ -890,7 +894,8 @@ body {
     margin-top: 50px;
 }
 
-.workflow__item {
+.workflow__item-1,
+.workflow__item-2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -912,11 +917,13 @@ body {
     background-color: transparent;
 }
 
-.workflow__item:first-child {
+.workflow__item-1:first-child,
+.workflow__item-2:first-child {
     margin-right: 28px;
 }
 
-.workflow__item:hover {
+.workflow__item-1:hover,
+.workflow__item-2:hover {
     border: solid 3px #c8254f;
     -webkit-box-shadow: 0 0 30px 0 #c8254f;
     box-shadow: 0 0 30px 0 #c8254f;
@@ -945,11 +952,15 @@ body {
     margin-top: 18px;
 }
 
-.workflow__img {
+.workflow__img-1,
+.workflow__img-2 {
+    width: 348px;
+    height: 325px;
     margin: 0 10px 0 auto;
 }
 
-.workflow__img--hidden {
+.workflow__img-1--hidden,
+.workflow__img-2--hidden {
     display: none;
 }
 
@@ -2822,7 +2833,8 @@ body {
         font-size: 50px;
     }
 
-    .workflow__item {
+    .workflow__item-1,
+    .workflow__item-2 {
         width: 250px;
         height: 115px;
     }
@@ -2835,7 +2847,8 @@ body {
         font-size: 17.8px;
     }
 
-    .workflow__img {
+    .workflow__img-1,
+    .workflow__img-2 {
         margin: 100px 0 80px 0;
     }
 
@@ -3247,18 +3260,21 @@ body {
         margin-top: 30px;
     }
 
-    .workflow__item {
+    .workflow__item-1,
+    .workflow__item-2 {
         width: 120px;
         height: 55px;
         border: solid 1px #fff;
         border-radius: 10px;
     }
 
-    .workflow__item:first-child {
+    .workflow__item-1:first-child,
+    .workflow__item-2:first-child {
         margin-right: 13px;
     }
 
-    .workflow__item:hover {
+    .workflow__item-1:hover,
+    .workflow__item-2:hover {
         border: solid 1px #c8254f;
     }
 
@@ -3271,7 +3287,8 @@ body {
         margin-top: 9px;
     }
 
-    .workflow__img {
+    .workflow__img-1,
+    .workflow__img-2 {
         margin: 40px 0 35px 0;
         width: 80%;
         max-width: 348px;

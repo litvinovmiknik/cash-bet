@@ -636,7 +636,16 @@
     /***/
     (function(module, exports) {
 
-        $(function() {});
+        $(function() {
+            $('.workflow__item-1').hover(function() {
+                $('.workflow__img-1').removeClass('hidden');
+                $('.workflow__img-2').addClass('hidden');
+            });
+            $('.workflow__item-2').hover(function() {
+                $('.workflow__img-1').addClass('hidden');
+                $('.workflow__img-2').removeClass('hidden');
+            });
+        });
 
         /***/
     })
